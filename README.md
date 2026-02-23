@@ -70,9 +70,7 @@ Each microscopy image undergoes standardized preprocessing:
 - **Gaussian Blur (σ = 1.0)** – Reduces high-frequency noise while preserving cellular edges.  
 - **Rolling Ball Background Subtraction (50 px)** – Corrects uneven illumination artifacts.
 
-Example placeholder:
-
-![Preprocessing Workflow](images/preprocessing_pipeline.png)
+![Preprocessing Workflow](ImageJ_Fiji_screenshots/image1/3.png)
 
 ---
 
@@ -88,10 +86,7 @@ Adaptive thresholding is applied depending on sample type:
 #### Watershed Algorithm
 
 Applied to separate overlapping cells into individual measurable objects.
-
-Example placeholder:
-
-![Segmentation Output](images/segmentation_mask.png)
+![Segmentation Output](ImageJ_Fiji_screenshots/image1/7.png)
 
 ---
 
@@ -107,8 +102,6 @@ Automated extraction of morphometric descriptors:
 
 All measurements are exported as structured `.csv` datasets.
 
----
-
 ## Example CSV Structure
 
 ```csv
@@ -116,6 +109,8 @@ Image_ID,Cell_ID,Area,Circularity,Aspect_Ratio,Roundness,Mean_Gray
 Normal_01,1,56.21,0.93,1.05,0.89,132.4
 Normal_01,2,60.78,0.91,1.12,0.87,129.8
 ```
+
+
 
 ## Phase 2 — Python Statistical Modeling
 
@@ -131,9 +126,7 @@ Kernel Density Estimation (KDE) is used to model the continuous probability dist
 - Detection of macrocytosis shifts  
 - Quantification of variance expansion in cell sizes  
 
-Example placeholder:
-
-![KDE Distribution](images/kde_area_distribution.png)
+![KDE Distribution](results/Area_KDE.png)
 
 ---
 
@@ -147,9 +140,8 @@ Example observation:
 
 This confirms geometric consistency and robustness of extracted features.
 
-Example placeholder:
 
-![Correlation Heatmap](images/correlation_heatmap.png)
+![Correlation Heatmap](results/Correlation_Heatmap.png)
 
 ---
 
@@ -211,9 +203,6 @@ After initial segmentation (Phase 1) and statistical modeling (Phase 2), Phase 3
 - Remove debris, noise, or improperly segmented objects  
 - Ensure statistical robustness for downstream analyses
 
-Example placeholder:
-
-![Outlier Detection](images/outlier_detection.png)
 
 ---
 
@@ -224,9 +213,6 @@ Example placeholder:
 - Quantify **anisocytosis, poikilocytosis, and macrocytosis**  
 - Highlight shifts in mean, variance, and shape descriptors
 
-Example placeholder:
-
-![Comparative KDE](images/comparative_kde.png)
 
 ---
 
