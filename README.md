@@ -1,0 +1,2 @@
+# Quantitative-Imaging-Analysis-of-RBC-Morphology-using-ImageJ-and-Python
+A computational biology pipeline for Red Blood Cell (RBC) morphometry. Integrates ImageJ/Fiji for automated segmentation (Otsu/Watershed) with Python for statistical modeling (Seaborn/Pandas). Designed to quantify anisocytosis and poikilocytosis in normal vs. pathological conditions, bridging hematology and data science for reproducible research.
