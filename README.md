@@ -1,11 +1,11 @@
-# 🧬 Quantitative Imaging Analysis of RBC Morphology  
+# Quantitative Imaging Analysis of RBC Morphology  
 ### using ImageJ (Fiji) & Python
 
 > A reproducible computational biology pipeline for automated Red Blood Cell (RBC) morphometry integrating image segmentation and statistical modeling.
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 This repository presents a hybrid **computational hematology pipeline** designed to reduce subjectivity in manual RBC morphological assessment.
 
@@ -32,7 +32,7 @@ across two biological contexts:
 
 ---
 
-# 🏛 Institutional Affiliation
+# Institutional Affiliation
 
 | Institution | Faculty | Department |
 |-------------|---------|------------|
@@ -54,7 +54,7 @@ across two biological contexts:
 
 ---
 
-# 🧬 Analysis Pipeline
+# Analysis Pipeline
 
 The project follows a hybrid computational architecture combining high-precision image segmentation with reproducible statistical modeling.
 
@@ -224,9 +224,9 @@ After initial segmentation (Phase 1) and statistical modeling (Phase 2), Phase 3
 
 ---
 
-# 🎓 Author & Supervision
+# Author & Supervision
 ## Author: Abdelkarim Hani Ghrieb Master 1 in Developmental Genetics (USTHB) & CS Student (UoPeople)
 ### Supervised by: M. Ammar Rachad Medjdoub Open Source Discipline, USTHB.
 
-# 🙏 Acknowledgments
+# Acknowledgments
 I would like to express my deepest gratitude to my professor, M. Ammar Rachad Medjdoub, for his expert supervision, constant availability, and the high quality of guidance provided throughout the development of this project.
